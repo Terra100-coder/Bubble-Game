@@ -25,3 +25,22 @@ body {
     overflow: hidden;
 }
 
+/* Style general des bulles */
+.bubble {
+    position: absolute;
+    bottom: -100px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: red;
+    opacity: 0.9;
+    animation: floatUp linear;
+}
+
+/* Animation des bulles vers le haut */
+@keyframes floatUp {
+    to {
+        transform: translateY(-110vh);
+        opacity: 0;
+    }
+}
