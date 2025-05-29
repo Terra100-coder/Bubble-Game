@@ -25,6 +25,36 @@ body {
     overflow: hidden;
 }
 
+#end-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    z-index: 2000;
+}
+
+/* Style du bouton */
+#replay-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #56cfe1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#replay-button:hover {
+    background-color: #4aaac4;
+}
+
 /* Style general des bulles */
 .bubble {
     position: absolute;
