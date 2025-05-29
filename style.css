@@ -1,0 +1,27 @@
+/* Fond general  */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(to top, #0f2027, #203a43, #2c5364);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/* Affichage du score */
+.score-board {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    z-index: 1000;
+}
+
+/* Conteneur de jeu */
+#game-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
